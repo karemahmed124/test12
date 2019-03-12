@@ -435,7 +435,7 @@ Discord API: ${client.ping.toFixed(0)} ms\`\`\``);
     }
 });
 
-const developers = ["521350578727813151","522764310313697282","448590558160748545"]
+const developers = ["514857011113099289"]
 const adminprefix = "-";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
